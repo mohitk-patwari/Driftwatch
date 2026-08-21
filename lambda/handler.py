@@ -21,8 +21,8 @@ def handler(event, context):
     # weather.fetch() never raises — it degrades to unobserved internally.
     current_weather = weather.fetch()
 
-    new_style, drift_value, seq = drift.compute_next_style(table)
-    title, body = compose.compose(seq, new_style, current_weather)
+    new_style, drift_value, seq, recent_bodies = drift.compute_next_style(table)
+    title, body = compose.compose(seq, new_style, current_weather, recent_bodies)
 
     now = datetime.now(timezone.utc).isoformat()
     entry = {

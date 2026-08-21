@@ -22,6 +22,22 @@ LEXICON_WORDS = {
             "somewhere past the breakers the sea keeps a ledger no one reads",
             "the mudflats hoard the low light until the tide reclaims it",
             "a channel marker leans, rehearsing its own collapse",
+            "the low tide leaves a rime of salt on everything it touched",
+            "a heron stands motionless at the tideline, waiting on nothing",
+            "the current runs sideways against the pilings today",
+            "kelp strands mark the last high-water line in a ragged row",
+            "the bar has shifted again since the last survey",
+            "a single buoy rides the swell, counting nothing",
+            "salt has worked white lines into every plank of the jetty",
+            "the current drags a single gull backward before it corrects",
+            "driftwood collects in the same corner it always collects in",
+            "the tideline shifts a hand's width and nobody marks it",
+            "cormorants dry their wings on a post that leans further each year",
+            "the estuary mouth narrows with every season's silt",
+            "a rope, long since cut loose, drifts against the pilings",
+            "spray reaches the road only on the roughest days",
+            "the flats hold the shape of yesterday's low tide",
+            "a crab shell bleaches white on the upper strand",
         ],
         "plain": [
             "the tide is out again",
@@ -34,6 +50,22 @@ LEXICON_WORDS = {
             "nothing moved on the water today",
             "the sea is flat past the breakers",
             "the shoreline held its shape overnight",
+            "the water is clear near the shore",
+            "a boat passed through around midday",
+            "the tide chart matched what actually happened",
+            "salt crust has formed on the lower pilings",
+            "the current is running the usual direction",
+            "the sandbar is exposed at low tide",
+            "the water level matches yesterday's mark",
+            "no debris washed up overnight",
+            "the boat ramp is clear",
+            "the tide came in on schedule",
+            "the buoy is still in its usual spot",
+            "the wind has not shifted the sandbar",
+            "the dock is dry at low tide",
+            "nothing unusual washed ashore",
+            "the water is the same color as yesterday",
+            "the mooring lines are holding",
         ],
         "weather": {
             "clear": [
@@ -114,6 +146,22 @@ LEXICON_WORDS = {
             "the cliff has shed another inch since anyone last measured",
             "mineral veins catch what light there is and give little back",
             "the outcrop wears the same weather it wore a thousand years ago",
+            "a seam of quartz catches the light and lets it go",
+            "the old quarry road has gone soft with disuse",
+            "frost has worked a new crack into the north face",
+            "the talus pile grows an inch nobody will notice",
+            "lichen has claimed another patch of the shaded rock",
+            "the survey stakes lean at the same angle as last year",
+            "the last blast face still smells faintly of powder",
+            "a rusted cart track disappears under fresh scree",
+            "the quarry pool holds the sky better than any mirror should",
+            "wind has scoured a new hollow into the soft stone",
+            "the survey flag has faded to the color of the rock itself",
+            "a single spark of mica catches the eye and lets it go",
+            "the access gate hangs open on a hinge nobody fixed",
+            "heat shimmers off the exposed cut by midday",
+            "the old drill holes are filling in with dust",
+            "a hawk uses the updraft off the cliff face and nothing else",
         ],
         "plain": [
             "the rock face is unchanged since yesterday",
@@ -126,6 +174,22 @@ LEXICON_WORDS = {
             "nothing has shifted on the scree slope",
             "the outcrop is bare rock, nothing growing on it",
             "the quarry walls held through the night",
+            "the gravel path is dry",
+            "no new rockfall was reported",
+            "the survey markers are still in place",
+            "the north face is in shadow most of the day",
+            "the access road is passable",
+            "dust covers the lower ledges",
+            "the equipment shed is locked",
+            "no blasting is scheduled this week",
+            "the water table in the pit is unchanged",
+            "the perimeter fence is intact",
+            "the last inspection found nothing to flag",
+            "the stockpile hasn't grown or shrunk",
+            "the crusher is idle today",
+            "no new dust complaints were filed",
+            "the haul road is graded and dry",
+            "the site is secure for the night",
         ],
         "weather": {
             "clear": [
@@ -206,6 +270,22 @@ LEXICON_WORDS = {
             "the birds keep a memory of a coast that never existed",
             "wingtips cut the fog before the rest of the bird arrives",
             "the nesting ledge holds three birds and one argument",
+            "a heron holds its post at the water's edge, unmoved",
+            "the far rocks carry more argument than birds",
+            "something small crosses low and fast, gone before it's named",
+            "the colony's noise has settled into its evening register",
+            "a single feather turns slowly on the current",
+            "the roost holds its shape against a sky doing nothing",
+            "a cormorant surfaces with nothing and dives again anyway",
+            "the tern colony argues about the same patch of sand it always argues about",
+            "something crosses high enough to be only a shape",
+            "a wing print is pressed into the wet sand and already fading",
+            "the gulls have worked out a hierarchy nobody wrote down",
+            "a single egg sits unattended on the upper ledge",
+            "the flock takes the same bearing it took yesterday",
+            "molted feathers collect along the tideline in small drifts",
+            "a young bird tests the air and doesn't trust it yet",
+            "the roost counts one fewer than last week, unexplained",
         ],
         "plain": [
             "a few birds are on the water",
@@ -218,6 +298,22 @@ LEXICON_WORDS = {
             "the flock is smaller than last week",
             "the birds ignored the weather entirely",
             "a gull sat on the same post as yesterday",
+            "a heron stood at the water's edge this morning",
+            "the count was about the same as last week",
+            "no unusual calls were heard today",
+            "a few birds crossed overhead at dusk",
+            "the nesting site looks undisturbed",
+            "the shorebirds kept their usual distance",
+            "the nest count is unchanged",
+            "a banded bird was seen again today",
+            "the feeding area was busy this morning",
+            "no dead birds were found on the beach",
+            "the chicks are growing as expected",
+            "the colony is quieter in the afternoons",
+            "migration hasn't started yet this season",
+            "the usual species were present today",
+            "no predators were spotted near the roost",
+            "the birds returned to the same perch",
         ],
         "weather": {
             "clear": [
@@ -298,6 +394,22 @@ LEXICON_WORDS = {
             "rust has started at the seams, on schedule",
             "the station runs itself through another indifferent hour",
             "a warning light blinks at a threshold nobody set",
+            "the backup battery holds its charge without complaint",
+            "a firmware counter ticks over unnoticed",
+            "the housing seal has started to show its age",
+            "diagnostics return green across every panel",
+            "the antenna holds its bearing through another cycle",
+            "a log entry closes itself out, satisfied with nothing",
+            "a spare fuse sits untouched in its slot, waiting",
+            "the enclosure hums at a pitch only the equipment notices",
+            "condensation traces the same path down the same panel",
+            "a cable tie has finally given up after years of sun",
+            "the calibration log shows nothing worth flagging",
+            "solar input tracks the day exactly as the model predicts",
+            "an old firmware note still references hardware long since replaced",
+            "the backup link stands ready, untested since installation",
+            "a single LED blinks in a pattern only the technician remembers",
+            "the mounting bolts have not backed out since the last check",
         ],
         "plain": [
             "the sensors are working",
@@ -310,6 +422,22 @@ LEXICON_WORDS = {
             "the uplink connected without issue",
             "maintenance is not due yet",
             "the station reported normally",
+            "the battery is fully charged",
+            "the last diagnostic passed without issue",
+            "the antenna is aligned correctly",
+            "logs are being written on schedule",
+            "the enclosure is sealed and dry",
+            "firmware is up to date",
+            "the solar panel is clean",
+            "signal strength is normal",
+            "the last software update installed cleanly",
+            "no alerts fired overnight",
+            "the case temperature is within range",
+            "the ground connection tested fine",
+            "spare parts inventory is current",
+            "the clock is synced correctly",
+            "no packet loss was recorded",
+            "the mount is stable in the wind",
         ],
         "weather": {
             "clear": [
@@ -390,6 +518,22 @@ LEXICON_WORDS = {
             "green things keep growing toward a sea that isn't really there",
             "the marsh grass records the tide better than any gauge does",
             "something in the dune line is flowering out of season",
+            "a stand of sea lavender holds its color past its season",
+            "the dune's leeward side has gone thick with new growth",
+            "something has been grazing the low scrub again",
+            "seed heads bow the grass without breaking it",
+            "the marsh edge has crept a little further inland",
+            "moss has taken the shaded side of every post",
+            "a stand of pickleweed holds its red long past when it should fade",
+            "something has tunneled under the boardwalk overnight",
+            "the marsh grass parts around a channel too small to name",
+            "seed pods rattle in the wind like something counting",
+            "a vine has reached the fence and is deciding what to do next",
+            "the dune's shadow line has moved a little further east",
+            "insects work the flowering scrub in numbers nobody counted",
+            "the reed bed holds water long after the rest of the marsh has dried",
+            "something green has taken root in the old boat hull",
+            "the grass line remembers a flood no one else does",
         ],
         "plain": [
             "the grass along the dune is still green",
@@ -402,6 +546,22 @@ LEXICON_WORDS = {
             "the dune vegetation is holding steady",
             "the marsh looks unchanged from the last visit",
             "the plants seem unaffected by the weather",
+            "the grass is due for its seasonal die-back",
+            "new shoots are visible near the boardwalk",
+            "the marsh edge looks the same as last visit",
+            "no invasive species were noted today",
+            "the dune fencing is holding the sand in place",
+            "the reeds have grown taller this month",
+            "the boardwalk is clear of overgrowth",
+            "no erosion was noted along the path",
+            "the wildflowers are still blooming",
+            "the marsh smells the same as always",
+            "insect activity is normal for the season",
+            "the fence line is holding back the sand",
+            "no dead patches were found in the scrub",
+            "the water level in the marsh is steady",
+            "the trail markers are all visible",
+            "growth along the path is being managed",
         ],
         "weather": {
             "clear": [
@@ -472,40 +632,137 @@ LEXICON_WORDS = {
     },
 }
 
+# Measurement clauses (temp/wind), pooled per lexicon like the weather image
+# lines. Some entries carry no {val} placeholder at all — picking one of those
+# is how a dispatch ends up omitting the numeric reading.
+MEASUREMENT_CLAUSES = {
+    "tidal": {
+        "temp": [
+            "the air reads {desc} at {val:.0f}°C",
+            "the salt air runs {desc}, {val:.0f}°C on the gauge",
+            "it's {desc} over the water, {val:.0f}°C by the reading",
+            "the tide brings {desc} air today",
+            "heat off the flats sits {desc}",
+            "{val:.0f}°C on the gauge, {desc} for the season",
+        ],
+        "wind": [
+            "wind is {desc} at {val:.0f} kph",
+            "the wind off the water runs {desc}, {val:.0f} kph",
+            "{val:.0f} kph across the flats, {desc} by any measure",
+            "the wind is {desc} today",
+            "air moves {desc} over the channel",
+            "gusts hold {desc} at {val:.0f} kph",
+        ],
+    },
+    "mineral": {
+        "temp": [
+            "the air reads {desc} at {val:.0f}°C",
+            "heat off the rock sits {desc}, {val:.0f}°C on the gauge",
+            "the stone holds {desc} air, {val:.0f}°C by the reading",
+            "it's {desc} across the quarry today",
+            "the ridge sits {desc} in today's air",
+            "{val:.0f}°C on the gauge, {desc} for the exposure",
+        ],
+        "wind": [
+            "wind is {desc} at {val:.0f} kph",
+            "wind off the ridge runs {desc}, {val:.0f} kph",
+            "{val:.0f} kph over the scree, {desc} by any measure",
+            "the wind is {desc} up on the ridge today",
+            "air moves {desc} across the quarry",
+            "gusts hold {desc} at {val:.0f} kph",
+        ],
+    },
+    "avian": {
+        "temp": [
+            "the air reads {desc} at {val:.0f}°C",
+            "the air the birds fly through sits {desc}, {val:.0f}°C",
+            "it's {desc} aloft today, {val:.0f}°C by the reading",
+            "the air is {desc} for flying today",
+            "heat sits {desc} over the roost",
+            "{val:.0f}°C on the gauge, {desc} for the season",
+        ],
+        "wind": [
+            "wind is {desc} at {val:.0f} kph",
+            "wind under the wings runs {desc}, {val:.0f} kph",
+            "{val:.0f} kph today, {desc} by any measure",
+            "the wind is {desc} for flying today",
+            "air moves {desc} over the roost",
+            "gusts hold {desc} at {val:.0f} kph",
+        ],
+    },
+    "mechanical": {
+        "temp": [
+            "the air reads {desc} at {val:.0f}°C",
+            "the sensor logs {desc} air, {val:.0f}°C",
+            "the gauge shows {desc}, {val:.0f}°C on the reading",
+            "the station logs {desc} conditions today",
+            "the array reads {desc} for the hour",
+            "{val:.0f}°C on the gauge, {desc} for the run",
+        ],
+        "wind": [
+            "wind is {desc} at {val:.0f} kph",
+            "the anemometer logs {desc}, {val:.0f} kph",
+            "{val:.0f} kph on the gauge, {desc} by any measure",
+            "the wind sensor logs {desc} conditions",
+            "the array reads {desc} wind for the hour",
+            "gusts hold {desc} at {val:.0f} kph",
+        ],
+    },
+    "botanical": {
+        "temp": [
+            "the air reads {desc} at {val:.0f}°C",
+            "the air over the marsh sits {desc}, {val:.0f}°C",
+            "it's {desc} across the dune line, {val:.0f}°C by the reading",
+            "the air is {desc} over the scrub today",
+            "heat sits {desc} across the marsh",
+            "{val:.0f}°C on the gauge, {desc} for the season",
+        ],
+        "wind": [
+            "wind is {desc} at {val:.0f} kph",
+            "wind off the dune runs {desc}, {val:.0f} kph",
+            "{val:.0f} kph over the marsh, {desc} by any measure",
+            "the wind is {desc} across the dune line today",
+            "air moves {desc} through the reeds",
+            "gusts hold {desc} at {val:.0f} kph",
+        ],
+    },
+}
+
 
 def _wordcount(s):
     return len(s.split())
 
 
-def _temp_clause(temp_c):
-    if temp_c is None:
-        return "the instruments recorded no temperature"
+def _temp_desc(temp_c):
     if temp_c < 18:
-        desc = "sharp"
-    elif temp_c < 24:
-        desc = "mild"
-    elif temp_c < 29:
-        desc = "warm"
-    else:
-        desc = "heavy"
-    return f"the air reads {desc} at {temp_c:.0f}°C"
+        return "sharp"
+    if temp_c < 24:
+        return "mild"
+    if temp_c < 29:
+        return "warm"
+    return "heavy"
 
 
-def _wind_clause(wind_kph):
-    if wind_kph is None:
-        return "the wind gauge stayed silent"
+def _wind_desc(wind_kph):
     if wind_kph < 10:
-        desc = "barely moving"
-    elif wind_kph < 25:
-        desc = "steady"
-    elif wind_kph < 40:
-        desc = "pushing hard"
-    else:
-        desc = "working the whole coast"
-    return f"wind is {desc} at {wind_kph:.0f} kph"
+        return "barely moving"
+    if wind_kph < 25:
+        return "steady"
+    if wind_kph < 40:
+        return "pushing hard"
+    return "working the whole coast"
 
 
-def _build_sentence(rng, pool, used, target, seed_fragment=None):
+def _measurement_clause(kind, value, lexicon, seq):
+    if value is None:
+        return "the instruments recorded no temperature" if kind == "temp" else "the wind gauge stayed silent"
+    desc = _temp_desc(value) if kind == "temp" else _wind_desc(value)
+    pool = MEASUREMENT_CLAUSES[lexicon][kind]
+    template = pool[_seq_index(len(pool), seq, "measurement", kind, lexicon)]
+    return template.format(desc=desc, val=value)
+
+
+def _build_sentence(rng, pool, used, target, seed_fragment=None, rank=None):
     fragments = []
     words = 0
     if seed_fragment:
@@ -514,7 +771,17 @@ def _build_sentence(rng, pool, used, target, seed_fragment=None):
         used.add(seed_fragment)
 
     candidates = [f for f in pool if f not in used]
-    rng.shuffle(candidates)
+    if rank:
+        # Prefer fragments not seen in the last 20 entries (or seen longest
+        # ago); rng.random() breaks ties among equally-fresh candidates so
+        # selection still varies dispatch to dispatch.
+        # ponytail: with ~26 lines/pool and ~2-3 consumed per dispatch, this
+        # spaces reuse out but doesn't guarantee zero repeats across a full
+        # 20-entry window at high sentence_target. Widen pools further if
+        # audits still find repeats closer than ~6-8 dispatches apart.
+        candidates.sort(key=lambda f: (-rank.get(f, len(rank)), rng.random()))
+    else:
+        rng.shuffle(candidates)
     for frag in candidates:
         if words >= target - 2:
             break
@@ -543,8 +810,12 @@ def _seq_index(n, *parts):
     return int.from_bytes(digest[:4], "big") % n
 
 
-def compose(seq, style, weather):
-    """Returns (title, body) for one dispatch."""
+def compose(seq, style, weather, recent_bodies=None):
+    """Returns (title, body) for one dispatch.
+
+    recent_bodies (optional): bodies of the last ~20 entries, used only to
+    avoid reusing a body line that already appears verbatim in them.
+    """
     seed = "|".join([
         str(seq),
         f"{float(style['sentence_target']):.2f}",
@@ -561,6 +832,13 @@ def compose(seq, style, weather):
     pool = bank[flavor]
     target = float(style["sentence_target"])
 
+    recent_bodies = recent_bodies or []
+    recent_lower = [b.lower() for b in recent_bodies]
+    rank = {
+        f: next((i for i, b in enumerate(recent_lower) if f in b), len(recent_lower))
+        for f in pool
+    }
+
     num_sentences = rng.choice([2, 3, 3, 4])
     label = weather.get("label")
     weather_idx = _seq_index(num_sentences, seq, "position", style["lexicon"], label)
@@ -571,12 +849,13 @@ def compose(seq, style, weather):
     sentences = []
     for i in range(num_sentences):
         if i == weather_idx:
-            extra = rng.choice([_temp_clause(weather.get("temp_c")),
-                                 _wind_clause(weather.get("wind_kph"))])
+            kind = rng.choice(["temp", "wind"])
+            value = weather.get("temp_c") if kind == "temp" else weather.get("wind_kph")
+            extra = _measurement_clause(kind, value, style["lexicon"], seq)
             seed_fragment = f"{weather_seed}, {extra}"
-            sentences.append(_build_sentence(rng, pool, used, target, seed_fragment))
+            sentences.append(_build_sentence(rng, pool, used, target, seed_fragment, rank))
         else:
-            sentences.append(_build_sentence(rng, pool, used, target))
+            sentences.append(_build_sentence(rng, pool, used, target, rank=rank))
 
     return f"Dispatch {seq}", " ".join(sentences)
 
@@ -614,6 +893,21 @@ def demo():
         positions.add(hit_i)
     assert len(phrases_used) > 1, "weather phrasing repeats verbatim"
     assert len(positions) > 1, "weather sentence is pinned to one position"
+
+    # Measurement clause (temp/wind) must vary across seqs and sometimes drop
+    # the numeric reading entirely.
+    temp_texts = {_measurement_clause("temp", 24.0, "tidal", s) for s in range(1, 9)}
+    assert len(temp_texts) > 1, "measurement phrasing repeats verbatim"
+    assert any("°C" not in t for t in temp_texts), "no dispatch omitted the numeric reading"
+
+    # A body line seen in the last 20 entries must not reappear verbatim.
+    mineral_style = {"sentence_target": 14, "austerity": 0.3, "lexicon": "mineral", "repetition_pressure": 0.1}
+    mineral_weather = {"temp_c": 20.0, "code": 2, "label": "cloud", "wind_kph": 8.0}
+    reused_line = "the old cuts in the rock have started to soften at the edges"
+    recent = [f"{reused_line} filler filler filler."]
+    for s in range(1, 6):
+        body = compose(s, mineral_style, mineral_weather, recent_bodies=recent)[1]
+        assert reused_line not in body.lower(), "excluded body line reappeared"
 
     print("compose.py OK:", same_a[1][:80], "...")
 

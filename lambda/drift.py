@@ -110,7 +110,11 @@ def _save_state(table, style, seq):
 
 
 def compute_next_style(table):
-    """Returns (new_style: dict[str,float|str], drift: float, seq: int)."""
+    """Returns (new_style: dict[str,float|str], drift: float, seq: int, recent_bodies: list[str]).
+
+    recent_bodies is the last-20-entries body text, handed back so compose()
+    can avoid reusing a body line that already appears in them.
+    """
     old_style, old_seq = _load_state(table)
     new_seq = old_seq + 1
     entries = _load_recent_entries(table, 20)
@@ -118,7 +122,7 @@ def compute_next_style(table):
     if not entries:
         new_style = dict(SEED_STYLE)
         _save_state(table, new_style, new_seq)
-        return new_style, 0.0, new_seq
+        return new_style, 0.0, new_seq, []
 
     bodies = [e.get("body", "") for e in entries]
     rep = _repetition_pressure(bodies)
@@ -156,7 +160,7 @@ def compute_next_style(table):
 
     drift = _vector_distance(old_style, new_style)
     _save_state(table, new_style, new_seq)
-    return new_style, drift, new_seq
+    return new_style, drift, new_seq, bodies
 
 
 def demo():
