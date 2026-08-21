@@ -1,0 +1,69 @@
+{
+    "Items": [
+        {
+            "drift": {
+                "N": "0.03405769718550512"
+            },
+            "pk": {
+                "S": "ENTRY"
+            },
+            "seq": {
+                "N": "2"
+            },
+            "engine": {
+                "S": "deterministic"
+            },
+            "weather": {
+                "M": {
+                    "wind_kph": {
+                        "N": "14.2"
+                    },
+                    "temp_c": {
+                        "N": "27"
+                    },
+                    "label": {
+                        "S": "drizzle"
+                    },
+                    "code": {
+                        "N": "51"
+                    }
+                }
+            },
+            "title": {
+                "S": "Dispatch 2"
+            },
+            "style": {
+                "M": {
+                    "sentence_target": {
+                        "N": "11"
+                    },
+                    "lexicon": {
+                        "S": "tidal"
+                    },
+                    "austerity": {
+                        "N": "0.46058823529411763"
+                    },
+                    "repetition_pressure": {
+                        "N": "0"
+                    }
+                }
+            },
+            "body": {
+                "S": "The estuary keeps its mouth half open through the grey hour. A fine rain pocks the flats without committing, wind is steady at 14 kph. The tide draws back over stones it has smoothed for years."
+            },
+            "sk": {
+                "S": "2026-08-21T07:35:24.766041+00:00"
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 1,
+    "LastEvaluatedKey": {
+        "sk": {
+            "S": "2026-08-21T07:35:24.766041+00:00"
+        },
+        "pk": {
+            "S": "ENTRY"
+        }
+    }
+}
