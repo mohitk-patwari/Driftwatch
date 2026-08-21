@@ -164,6 +164,15 @@ def demo():
     rep = _repetition_pressure(["the salt tide the salt tide the salt tide crossed"])
     assert 0.0 < rep <= 1.0
 
+    # A weather sentence repeated verbatim across dispatches must register as
+    # pressure too — repetition_pressure scans whole bodies, weather sentence
+    # included, so a stale phrase moves the measurement same as any other text.
+    stale_weather = "a fine rain pocks the flats without committing"
+    fillers = ["gulls stand on the sandbar", "the jetty is still standing",
+               "nothing moved on the water today", "the channel is calm this morning"]
+    stale_bodies = [f"{stale_weather}, wind is barely moving at 5 kph. {f}." for f in fillers]
+    assert _repetition_pressure(stale_bodies) > _repetition_pressure(fillers)
+
     old = {"sentence_target": 12.0, "austerity": 0.5, "lexicon": "tidal", "repetition_pressure": 0.0}
     same = dict(old)
     assert _vector_distance(old, same) == 0.0

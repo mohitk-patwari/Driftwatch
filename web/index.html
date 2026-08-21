@@ -189,12 +189,16 @@
     return w.label + ', ' + w.temp_c + '°C, wind ' + w.wind_kph + ' kph';
   }
 
+  function fmt2(n) {
+    return typeof n === 'number' ? n.toFixed(2) : n;
+  }
+
   function styleBadge(e) {
     if (!e.style) return '';
     return 'lexicon: <span class="lex-' + e.style.lexicon + '">' + e.style.lexicon + '</span>'
       + ' &middot; sentence_target: ' + e.style.sentence_target
-      + ' &middot; austerity: ' + e.style.austerity
-      + ' &middot; drift: ' + e.drift;
+      + ' &middot; austerity: ' + fmt2(e.style.austerity)
+      + ' &middot; drift: ' + fmt2(e.drift);
   }
 
   function renderLatest(e) {
